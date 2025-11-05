@@ -540,6 +540,14 @@ class SOAPCatalogue(Catalogue):
 
             swift_units = SWIFTUnitsMockup(dict(handle["Units"].attrs))
             self.cosmology = swift_cosmology_to_astropy(dict(cosmology), swift_units)
+            self.cosmic_time = self.cosmology.age(self.z).to('Gyr')
+            self.units.cosmic_time = (
+                handle["Units"].attrs["Unit time in cgs (U_t)"][0] * unyt.Gyr
+            ).in_base("galactic")
+
+            # print(swift_units.age)
+            # print(self.cosmology.age(self.z).unit)
+            # print(self.units.cosmic_time)
 
             # get the box size and length unit from the SWIFT header and unit metadata
             boxsize = handle["SWIFT/Header"].attrs["BoxSize"][0]

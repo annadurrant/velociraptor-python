@@ -147,7 +147,7 @@ def decorate_axes(
         fontsize = None
 
     label_switch = {
-        redshift_loc: f"$z={catalogue.z:2.3f}$\n$a={catalogue.a:2.3f}$",
+        redshift_loc: f"$z={catalogue.z:2.3f}$\n$a={catalogue.a:2.3f}$\n$t={catalogue.cosmic_time.to_value('Gyr'):2.3f}$Gyr",
         comment_loc: comment,
     }
 

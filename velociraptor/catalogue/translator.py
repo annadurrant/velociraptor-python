@@ -183,6 +183,150 @@ def VR_to_SOAP(particle_property_name: str) -> str:
             "exclusivesphere.50kpc.stellarluminosity",
             8,
         ),
+        "corrected_stellar_luminosities.FUV_luminosity_10_kpc": (
+            "exclusivesphere.10kpc.correctedstellarluminosity",
+            0,
+        ),
+        "corrected_stellar_luminosities.FUV_luminosity_30_kpc": (
+            "exclusivesphere.30kpc.correctedstellarluminosity",
+            0,
+        ),
+        "corrected_stellar_luminosities.FUV_luminosity_50_kpc": (
+            "exclusivesphere.50kpc.correctedstellarluminosity",
+            0,
+        ),
+        "corrected_stellar_luminosities.FUV_luminosity_100_kpc": (
+            "exclusivesphere.100kpc.correctedstellarluminosity",
+            0,
+        ),
+        "corrected_stellar_luminosities.NUV_luminosity_10_kpc": (
+            "exclusivesphere.10kpc.correctedstellarluminosity",
+            1,
+        ),
+        "corrected_stellar_luminosities.NUV_luminosity_30_kpc": (
+            "exclusivesphere.30kpc.correctedstellarluminosity",
+            1,
+        ),
+        "corrected_stellar_luminosities.NUV_luminosity_50_kpc": (
+            "exclusivesphere.50kpc.correctedstellarluminosity",
+            1,
+        ),
+        "corrected_stellar_luminosities.NUV_luminosity_100_kpc": (
+            "exclusivesphere.100kpc.correctedstellarluminosity",
+            1,
+        ),
+        "corrected_stellar_luminosities.u_luminosity_10_kpc": (
+            "exclusivesphere.10kpc.correctedstellarluminosity",
+            2,
+        ),
+        "corrected_stellar_luminosities.u_luminosity_30_kpc": (
+            "exclusivesphere.30kpc.correctedstellarluminosity",
+            2,
+        ),
+        "corrected_stellar_luminosities.u_luminosity_50_kpc": (
+            "exclusivesphere.50kpc.correctedstellarluminosity",
+            2,
+        ),
+        "corrected_stellar_luminosities.u_luminosity_100_kpc": (
+            "exclusivesphere.100kpc.correctedstellarluminosity",
+            2,
+        ),
+        "corrected_stellar_luminosities.g_luminosity_10_kpc": (
+            "exclusivesphere.10kpc.correctedstellarluminosity",
+            3,
+        ),
+        "corrected_stellar_luminosities.g_luminosity_30_kpc": (
+            "exclusivesphere.30kpc.correctedstellarluminosity",
+            3,
+        ),
+        "corrected_stellar_luminosities.g_luminosity_50_kpc": (
+            "exclusivesphere.50kpc.correctedstellarluminosity",
+            3,
+        ),
+        "corrected_stellar_luminosities.g_luminosity_100_kpc": (
+            "exclusivesphere.100kpc.correctedstellarluminosity",
+            3,
+        ),
+        "corrected_stellar_luminosities.r_luminosity_10_kpc": (
+            "exclusivesphere.10kpc.correctedstellarluminosity",
+            4,
+        ),
+        "corrected_stellar_luminosities.r_luminosity_30_kpc": (
+            "exclusivesphere.30kpc.correctedstellarluminosity",
+            4,
+        ),
+        "corrected_stellar_luminosities.r_luminosity_50_kpc": (
+            "exclusivesphere.50kpc.correctedstellarluminosity",
+            4,
+        ),
+        "corrected_stellar_luminosities.r_luminosity_100_kpc": (
+            "exclusivesphere.100kpc.correctedstellarluminosity",
+            4,
+        ),
+        "corrected_stellar_luminosities.i_luminosity_10_kpc": (
+            "exclusivesphere.10kpc.correctedstellarluminosity",
+            5,
+        ),
+        "corrected_stellar_luminosities.i_luminosity_30_kpc": (
+            "exclusivesphere.30kpc.correctedstellarluminosity",
+            5,
+        ),
+        "corrected_stellar_luminosities.i_luminosity_50_kpc": (
+            "exclusivesphere.50kpc.correctedstellarluminosity",
+            5,
+        ),
+        "corrected_stellar_luminosities.i_luminosity_100_kpc": (
+            "exclusivesphere.100kpc.correctedstellarluminosity",
+            5,
+        ),
+        "corrected_stellar_luminosities.z_luminosity_10_kpc": (
+            "exclusivesphere.10kpc.correctedstellarluminosity",
+            6,
+        ),
+        "corrected_stellar_luminosities.z_luminosity_30_kpc": (
+            "exclusivesphere.30kpc.correctedstellarluminosity",
+            6,
+        ),
+        "corrected_stellar_luminosities.z_luminosity_50_kpc": (
+            "exclusivesphere.50kpc.correctedstellarluminosity",
+            6,
+        ),
+        "corrected_stellar_luminosities.z_luminosity_100_kpc": (
+            "exclusivesphere.100kpc.correctedstellarluminosity",
+            6,
+        ),
+        "corrected_stellar_luminosities.K_luminosity_10_kpc": (
+            "exclusivesphere.10kpc.correctedstellarluminosity",
+            7,
+        ),
+        "corrected_stellar_luminosities.K_luminosity_30_kpc": (
+            "exclusivesphere.30kpc.correctedstellarluminosity",
+            7,
+        ),
+        "corrected_stellar_luminosities.K_luminosity_50_kpc": (
+            "exclusivesphere.50kpc.correctedstellarluminosity",
+            7,
+        ),
+        "corrected_stellar_luminosities.K_luminosity_100_kpc": (
+            "exclusivesphere.100kpc.correctedstellarluminosity",
+            7,
+        ),
+        "masses.chabrier_stellar_masses_10_kpc": (
+            "exclusivesphere.10kpc.chabrierinferredstellarmass",
+            -1,
+        ),
+        "masses.chabrier_stellar_masses_30_kpc": (
+            "exclusivesphere.30kpc.chabrierinferredstellarmass",
+            -1,
+        ),
+        "masses.chabrier_stellar_masses_50_kpc": (
+            "exclusivesphere.50kpc.chabrierinferredstellarmass",
+            -1,
+        ),
+        "masses.chabrier_stellar_masses_100_kpc": (
+            "exclusivesphere.100kpc.chabrierinferredstellarmass",
+            -1,
+        ),
         "apertures.sfr_gas_100_kpc": ("exclusivesphere.100kpc.starformationrate", -1),
         "apertures.sfr_gas_10_kpc": ("exclusivesphere.10kpc.starformationrate", -1),
         "apertures.sfr_gas_30_kpc": ("exclusivesphere.30kpc.starformationrate", -1),
@@ -362,6 +506,58 @@ def VR_to_SOAP(particle_property_name: str) -> str:
         "apertures.rhalfmass_star_50_kpc": (
             "exclusivesphere.50kpc.halfmassradiusstars",
             -1,
+        ),
+        "apertures.rhalfmass_dust_10_kpc": (
+            "exclusivesphere.10kpc.halfmassradiusdust",
+            -1,
+        ),
+        "apertures.rhalfmass_dust_30_kpc": (
+            "exclusivesphere.30kpc.halfmassradiusdust",
+            -1,
+        ),
+        "apertures.rhalfmass_dust_50_kpc": (
+            "exclusivesphere.50kpc.halfmassradiusdust",
+            -1,
+        ),
+        "apertures.rhalfmass_dust_100_kpc": (
+            "exclusivesphere.100kpc.halfmassradiusdust",
+            -1,
+        ),
+        "apertures.rhalfmass_colddensegas_50_kpc": (
+            "exclusivesphere.50kpc.halfmassradiuscolddensegas",
+            -1,
+        ),
+        "apertures.rhalflight_fuv_50_kpc": (
+            "exclusivesphere.50kpc.halfcorrectedlightradiusstars",
+            0,
+        ),
+        "apertures.rhalflight_nuv_50_kpc": (
+            "exclusivesphere.50kpc.halfcorrectedlightradiusstars",
+            1,
+        ),
+        "apertures.rhalflight_u_50_kpc": (
+            "exclusivesphere.50kpc.halfcorrectedlightradiusstars",
+            2,
+        ),
+        "apertures.rhalflight_g_50_kpc": (
+            "exclusivesphere.50kpc.halfcorrectedlightradiusstars",
+            3,
+        ),
+        "apertures.rhalflight_r_50_kpc": (
+            "exclusivesphere.50kpc.halfcorrectedlightradiusstars",
+            4,
+        ),
+        "apertures.rhalflight_i_50_kpc": (
+            "exclusivesphere.50kpc.halfcorrectedlightradiusstars",
+            5,
+        ),
+        "apertures.rhalflight_z_50_kpc": (
+            "exclusivesphere.50kpc.halfcorrectedlightradiusstars",
+            6,
+        ),
+        "apertures.rhalflight_k_50_kpc": (
+            "exclusivesphere.50kpc.halfcorrectedlightradiusstars",
+            7,
         ),
         "angular_momentum.lx_200c_gas": ("so.200_crit.angularmomentumgas", 0),
         "angular_momentum.lx_200c_star": ("so.200_crit.angularmomentumstars", 0),
@@ -895,6 +1091,8 @@ def VR_to_SOAP(particle_property_name: str) -> str:
         "veldisp.veldisp_zz_gas": ("boundsubhalo.gasvelocitydispersionmatrix", 2),
         "veldisp.veldisp_zz_star": ("boundsubhalo.stellarvelocitydispersionmatrix", 2),
         "stellar_age.tage_star": ("boundsubhalo.massweightedmeanstellarage", -1),
+        "stellar_age.tage_star_50kpc": ("exclusivesphere.50kpc.massweightedmeanstellarage", -1),
+        "stellar_age.tage_star_50kpc_uvweighted": ("exclusivesphere.50kpc.uvluminosityweightedmeanstellarage", -1),
         "snia_rates.snia_rates_30_kpc": ("exclusivesphere.30kpc.totalsniarate", -1),
         "snia_rates.snia_rates_50_kpc": ("exclusivesphere.50kpc.totalsniarate", -1),
         "snia_rates.snia_rates_100_kpc": ("exclusivesphere.100kpc.totalsniarate", -1),

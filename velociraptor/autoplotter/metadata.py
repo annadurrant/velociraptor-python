@@ -259,13 +259,14 @@ class AutoPlotterMetadata(object):
 
         metadata = {plot.filename: plot.to_dict() for plot in self.metadata}
 
-        try:
-            metadata["metadata"] = dict(
-                redshift=float(self.auto_plotter.catalogue.units.redshift),
-                scale_factor=float(self.auto_plotter.catalogue.units.scale_factor),
-            )
-        except:
-            pass
+        # try:
+        metadata["metadata"] = dict(
+            redshift=float(self.auto_plotter.catalogue.units.redshift),
+            scale_factor=float(self.auto_plotter.catalogue.units.scale_factor),
+            cosmic_time=float(self.auto_plotter.catalogue.units.cosmic_time)
+        )
+        # except:
+        #     pass
 
         with open(filename, "w") as handle:
             yaml.dump(metadata, stream=handle)

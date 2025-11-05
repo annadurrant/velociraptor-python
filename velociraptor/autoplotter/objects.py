@@ -21,6 +21,8 @@ from pathlib import Path
 from os import path, mkdir
 from collections import OrderedDict
 
+
+
 valid_plot_types = [
     "scatter",
     "2dhistogram",

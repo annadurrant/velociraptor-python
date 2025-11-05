@@ -1,5 +1,5 @@
 """
-Tools for creating comparison plots that are built out of the saved data.yml files.
+Tools for creating comparison plots that are built out of the saved datayml files.
 """
 
 """
@@ -30,9 +30,10 @@ class FakeCatalogue(Catalogue):
     scale factor information if available.
     """
 
-    def __init__(self, z=0.0, a=0.0):
+    def __init__(self, z=0.0, a=0.0, t=0.0):
         self.z = float(z)
         self.a = float(a)
+        self.cosmic_time = float(t)
         return
 
 
@@ -159,7 +160,9 @@ def recreate_single_figure(
     try:
         first_line_metadata = line_data[list(line_data.keys())[0]]["metadata"]
         fake_catalogue = FakeCatalogue(
-            z=first_line_metadata["redshift"], a=first_line_metadata["scale_factor"]
+            z=first_line_metadata["redshift"], 
+            a=first_line_metadata["scale_factor"],
+            t=first_line_metadata["cosmic_time"],
         )
     except KeyError:
         fake_catalogue = FakeCatalogue()
