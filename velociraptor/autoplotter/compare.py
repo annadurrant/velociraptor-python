@@ -33,7 +33,7 @@ class FakeCatalogue(Catalogue):
     def __init__(self, z=0.0, a=0.0, t=0.0):
         self.z = float(z)
         self.a = float(a)
-        self.cosmic_time = float(t)
+        # self.cosmic_time = float(t)
         return
 
 

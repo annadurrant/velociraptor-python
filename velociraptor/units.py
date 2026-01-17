@@ -132,6 +132,8 @@ class VelociraptorUnits(object):
             self.comoving = bool(attributes["Comoving_or_Physical"])
             self.cosmology = self.load_cosmology(handle)
 
+            # self.cosmic_time = self.cosmology.age(self.z).to('Gyr')
+
             # Period is comoving.
             self.period = unyt.unyt_quantity(
                 attributes["Period"], units=self.units["length"]
