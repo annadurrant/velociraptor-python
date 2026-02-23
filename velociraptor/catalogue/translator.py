@@ -201,131 +201,131 @@ def VR_to_SOAP(particle_property_name: str) -> str:
         ),
         "corrected_stellar_luminosities.FUV_luminosity_10_kpc": (
             "exclusivesphere.10kpc.correctedstellarluminosity",
-            1,
+            2,
         ),
         "corrected_stellar_luminosities.FUV_luminosity_30_kpc": (
             "exclusivesphere.30kpc.correctedstellarluminosity",
-            1,
+            2,
         ),
         "corrected_stellar_luminosities.FUV_luminosity_50_kpc": (
             "exclusivesphere.50kpc.correctedstellarluminosity",
-            1,
+            2,
         ),
         "corrected_stellar_luminosities.FUV_luminosity_100_kpc": (
             "exclusivesphere.100kpc.correctedstellarluminosity",
-            1,
+            2,
         ),
         "corrected_stellar_luminosities.NUV_luminosity_10_kpc": (
             "exclusivesphere.10kpc.correctedstellarluminosity",
-            2,
+            3,
         ),
         "corrected_stellar_luminosities.NUV_luminosity_30_kpc": (
             "exclusivesphere.30kpc.correctedstellarluminosity",
-            2,
+            3,
         ),
         "corrected_stellar_luminosities.NUV_luminosity_50_kpc": (
             "exclusivesphere.50kpc.correctedstellarluminosity",
-            2,
+            3,
         ),
         "corrected_stellar_luminosities.NUV_luminosity_100_kpc": (
             "exclusivesphere.100kpc.correctedstellarluminosity",
-            2,
+            3,
         ),
         "corrected_stellar_luminosities.u_luminosity_10_kpc": (
             "exclusivesphere.10kpc.correctedstellarluminosity",
-            3,
+            4,
         ),
         "corrected_stellar_luminosities.u_luminosity_30_kpc": (
             "exclusivesphere.30kpc.correctedstellarluminosity",
-            3,
+            4,
         ),
         "corrected_stellar_luminosities.u_luminosity_50_kpc": (
             "exclusivesphere.50kpc.correctedstellarluminosity",
-            3,
+            4,
         ),
         "corrected_stellar_luminosities.u_luminosity_100_kpc": (
             "exclusivesphere.100kpc.correctedstellarluminosity",
-            3,
+            4,
         ),
         "corrected_stellar_luminosities.g_luminosity_10_kpc": (
             "exclusivesphere.10kpc.correctedstellarluminosity",
-            4,
+            5,
         ),
         "corrected_stellar_luminosities.g_luminosity_30_kpc": (
             "exclusivesphere.30kpc.correctedstellarluminosity",
-            4,
+            5,
         ),
         "corrected_stellar_luminosities.g_luminosity_50_kpc": (
             "exclusivesphere.50kpc.correctedstellarluminosity",
-            4,
+            5,
         ),
         "corrected_stellar_luminosities.g_luminosity_100_kpc": (
             "exclusivesphere.100kpc.correctedstellarluminosity",
-            4,
+            5,
         ),
         "corrected_stellar_luminosities.r_luminosity_10_kpc": (
             "exclusivesphere.10kpc.correctedstellarluminosity",
-            5,
+            6,
         ),
         "corrected_stellar_luminosities.r_luminosity_30_kpc": (
             "exclusivesphere.30kpc.correctedstellarluminosity",
-            5,
+            6,
         ),
         "corrected_stellar_luminosities.r_luminosity_50_kpc": (
             "exclusivesphere.50kpc.correctedstellarluminosity",
-            5,
+            6,
         ),
         "corrected_stellar_luminosities.r_luminosity_100_kpc": (
             "exclusivesphere.100kpc.correctedstellarluminosity",
-            5,
+            6,
         ),
         "corrected_stellar_luminosities.i_luminosity_10_kpc": (
             "exclusivesphere.10kpc.correctedstellarluminosity",
-            6,
+            7,
         ),
         "corrected_stellar_luminosities.i_luminosity_30_kpc": (
             "exclusivesphere.30kpc.correctedstellarluminosity",
-            6,
+            7,
         ),
         "corrected_stellar_luminosities.i_luminosity_50_kpc": (
             "exclusivesphere.50kpc.correctedstellarluminosity",
-            6,
+            7,
         ),
         "corrected_stellar_luminosities.i_luminosity_100_kpc": (
             "exclusivesphere.100kpc.correctedstellarluminosity",
-            6,
+            7,
         ),
         "corrected_stellar_luminosities.z_luminosity_10_kpc": (
             "exclusivesphere.10kpc.correctedstellarluminosity",
-            7,
+            8,
         ),
         "corrected_stellar_luminosities.z_luminosity_30_kpc": (
             "exclusivesphere.30kpc.correctedstellarluminosity",
-            7,
+            8,
         ),
         "corrected_stellar_luminosities.z_luminosity_50_kpc": (
             "exclusivesphere.50kpc.correctedstellarluminosity",
-            7,
+            8,
         ),
         "corrected_stellar_luminosities.z_luminosity_100_kpc": (
             "exclusivesphere.100kpc.correctedstellarluminosity",
-            7,
+            8,
         ),
         "corrected_stellar_luminosities.K_luminosity_10_kpc": (
             "exclusivesphere.10kpc.correctedstellarluminosity",
-            8,
+            9,
         ),
         "corrected_stellar_luminosities.K_luminosity_30_kpc": (
             "exclusivesphere.30kpc.correctedstellarluminosity",
-            8,
+            9,
         ),
         "corrected_stellar_luminosities.K_luminosity_50_kpc": (
             "exclusivesphere.50kpc.correctedstellarluminosity",
-            8,
+            9,
         ),
         "corrected_stellar_luminosities.K_luminosity_100_kpc": (
             "exclusivesphere.100kpc.correctedstellarluminosity",
-            8,
+            9,
         ),
         "masses.chabrier_stellar_masses_10_kpc": (
             "exclusivesphere.10kpc.chabrierinferredstellarmass",
